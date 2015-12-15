@@ -1,0 +1,34 @@
+{
+  "name": "entitizer-api",
+  "version": "0.0.1",
+  "description": "Entitizer web api",
+  "main": "./lib/app.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node ./lib/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entitizer/entitizer-api-js.git"
+  },
+  "keywords": [
+    "entitizer",
+    "api"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entitizer/entitizer-api-js/issues"
+  },
+  "homepage": "https://github.com/entitizer/entitizer-api-js#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "entitizer": "0.0.1",
+    "joi": "6.10.0",
+    "lodash": "^3.10.1",
+    "restify": "^4.0.3"
+  }
+}
